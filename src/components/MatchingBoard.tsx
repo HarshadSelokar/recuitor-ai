@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useRecruiter } from '@/context/RecruiterContext';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -12,7 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Textarea } from '@/components/ui/textarea';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
-import { Check, X, MessageSquare, User, BookOpen, BarChart4, Briefcase, CheckCircle, XCircle, AlertCircle, Clock } from 'lucide-react';
+import { Check, X, MessageSquare, User, BookOpen, BarChart4, Briefcase, CheckCircle, XCircle, AlertCircle, Clock, GraduationCap } from 'lucide-react';
 
 const MatchingBoard = () => {
   const { jobs, cvs, matches, selectedJob, selectJob, updateCandidateStatus, loading } = useRecruiter();
