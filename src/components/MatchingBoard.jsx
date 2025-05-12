@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { useRecruiter } from '@/context/RecruiterContext';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -11,7 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Progress } from '@/components/ui/progress';
-import { Briefcase, Search, CheckCircle, XCircle, Clock, CalendarCheck, Filter, SlidersHorizontal } from 'lucide-react';
+import { Briefcase, Search, CheckCircle, XCircle, Clock, CalendarCheck, Filter, SlidersHorizontal, GraduationCap } from 'lucide-react';
 
 const MatchingBoard = () => {
   const { jobs, cvs, matches, loading, matchCandidatesToJob, updateCandidateStatus } = useRecruiter();
